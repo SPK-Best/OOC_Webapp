@@ -11,7 +11,7 @@ public class Webapp {
 
     public static void main(String[] args) throws Exception {
         Tomcat tomcat = new Tomcat();
-        tomcat.setPort(8082);
+        tomcat.setPort(80);
 
         DatabaseService databaseService = new DatabaseService();
         databaseService.readData();
